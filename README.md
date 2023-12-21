@@ -12,7 +12,7 @@ This addon hopes to change that, without introducing any new items, blocks, or e
 
 This is a behavio(u)r pack for Minecraft Bedrock Edition. For Minecraft Java Edition, consider Minecart Speed Plus or TrainCarts.
 
-For most users, the `.mcpack` installation method is sufficient. To do this, convert the `Minecarts++` folder into a zip file, then rename the file extension to `.mcpack`. Then, double click the file and allow Minecraft BE to install the pack for you.
+For most users, the `.mcpack` installation method is sufficient. To do this, convert the `Minecarts++` folder into a zip file, then rename the file extension to `.mcpack`. Then, double click the file and allow Minecraft BE to install the pack for you. Afterwards, it may be applied to any world or realm of your choice.
 
 In some cases however, you may need to directly modify the files inside the addon. On Windows machines, behaviour packs are located in `C:\Users\[username]\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs`, where you will find the files for all your behaviour packs.
 
