@@ -20,7 +20,7 @@ Upon applying a pack to a world, a copy will be made of the pack and made specif
 
 ## Usage Guide
 
-From here on out, we will refer to minecart speed in terms of blocks per ten ticks, where 1 btt = 2 m/s = 7.2 km/h. A minecart's operating speed is the speed at which it travels when at full power.
+From here on out, we will refer to minecart speed in terms of blocks per ten ticks, where 1 b/tt = 2 m/s = 7.2 km/h. A minecart's operating speed is the speed at which it travels when at full power.
 
 Just like in vanilla Minecraft, a minecart will spawn with an operating speed of 4. This addon will allow a minecart to change its operating speed to any integer between 0 and 15 inclusive. There are three main ways in which a minecart changes its operating speed: activator rails, light blocks, and functions + events.
 
@@ -52,9 +52,9 @@ There is also a mechanism for temporarily limiting a minecart's speed to 10 when
 
 The placement of rails is very important to consider, as exceeding a certain speed in specific cases will lead to rail collisions or derailment. Here is a basic rundown of the recommended limits that apply:
 
-4 - Continuous corners, continuous curves
-5 - Direct inclines, snap corners
-10 - Protruded inclines, snap curves
-15 - Cascading inclines, straight tracks, diagonal tracks
+4 - Continuous corners, continuous curves\
+5 - Direct inclines, snap corners\
+10 - Protruded inclines, snap curves\
+15 - Cascading inclines, straight tracks, diagonal tracks\
 
 Thanks to the `speed_limit_10` mechanism, snap curves may also be traversed when at a nominal operating speed above 10. This does NOT apply to protruded inclines, which will cause a collision or derailment.
