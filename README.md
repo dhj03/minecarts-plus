@@ -50,7 +50,7 @@ There is also a mechanism for temporarily limiting a minecart's speed to 10 when
 
 ### Rail Placement
 
-The placement of rails is very important to consider, as exceeding a certain speed in specific cases will lead to rail collisions or derailment. Here is a basic rundown of the recommended limits that apply:
+The placement of rails is very important to consider, as exceeding a certain speed in specific cases will lead to rail collisions or derailment. Here is a basic rundown of the recommended speed limits that apply:
 
 4 - Continuous corners, continuous curves\
 5 - Direct inclines, snap corners\
