@@ -54,7 +54,7 @@ The placement of rails is very important to consider, as exceeding a certain spe
 
 4 - Continuous corners, continuous curves\
 5 - Direct inclines, snap corners\
-10 - Protruded inclines, snap curves\
+10 - Protruding inclines, snap curves\
 15 - Cascading inclines, straight tracks, diagonal tracks
 
 Thanks to the `speed_limit_10` mechanism, snap curves may also be traversed when at a nominal operating speed above 10. This does NOT apply to protruded inclines, which will cause a collision or derailment.
