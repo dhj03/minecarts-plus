@@ -15,4 +15,4 @@ event entity @s[family=s13] "speed_13>14"
 event entity @s[family=s14] "speed_14>15"
 event entity @s[tag=vanilla_actv] vanilla_actv
 event entity @s[tag=limit_10] speed_10s
-execute @s[family=s10] ~ ~ ~ detect ~ ~ ~ rail -1 function minecart_rail_inspector_s10_
+execute as @s[family=s10] at @s if block ~ ~ ~ rail run function minecart_rail_inspector_s10_

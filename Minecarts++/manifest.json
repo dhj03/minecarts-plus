@@ -1,10 +1,11 @@
 {
-   "format_version" : 1,
+   "format_version" : 2,
    "header": {
       "description" : "Made by DHJ. Enjoy.",
       "name" : "Minecarts++",
       "uuid" : "0edf6b83-e271-4d8c-8383-34a5b8e21063",
-      "version" : [ 0, 0, 1 ]
+      "version" : [ 0, 0, 1 ],
+      "min_engine_version" : [ 1, 20, 10 ]
    },
    "modules": [
       {

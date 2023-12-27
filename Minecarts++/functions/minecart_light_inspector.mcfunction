@@ -1,17 +1,17 @@
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 0 /event entity @s speed_0
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 1 /event entity @s speed_1
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 2 /event entity @s speed_2
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 3 /event entity @s speed_3
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 4 /event entity @s speed_4
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 5 /event entity @s speed_5
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 6 /event entity @s speed_6
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 7 /event entity @s speed_7
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 8 /event entity @s speed_8
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 9 /event entity @s speed_9
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 10 /event entity @s speed_10
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 11 /event entity @s speed_11
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 12 /event entity @s speed_12
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 13 /event entity @s speed_13
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 14 /event entity @s speed_14
-execute @s ~ ~ ~ detect ~ ~1 ~ light_block 15 /event entity @s speed_15
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=0] run event entity @s speed_0
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=1] run event entity @s speed_1
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=2] run event entity @s speed_2
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=3] run event entity @s speed_3
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=4] run event entity @s speed_4
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=5] run event entity @s speed_5
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=6] run event entity @s speed_6
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=7] run event entity @s speed_7
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=8] run event entity @s speed_8
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=9] run event entity @s speed_9
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=10] run event entity @s speed_10
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=11] run event entity @s speed_11
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=12] run event entity @s speed_12
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=13] run event entity @s speed_13
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=14] run event entity @s speed_14
+execute as @s at @s if block ~ ~1 ~ light_block ["block_light_level"=15] run event entity @s speed_15
 event entity @s[tag=vanilla_actv] vanilla_actv

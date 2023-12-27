@@ -1,1 +1,1 @@
-execute @e[family=minecart,c=1,r=16] ~ ~ ~ function vanilla_actv_
+execute as @e[family=minecart,c=1,r=16] at @s run function vanilla_actv_

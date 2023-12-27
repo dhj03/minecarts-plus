@@ -1,1 +1,1 @@
-execute @e[family=minecart] ~ ~ ~ function minecart_tick
+execute as @e[family=minecart] at @s run function minecart_tick

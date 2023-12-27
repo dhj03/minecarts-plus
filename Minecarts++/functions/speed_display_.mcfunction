@@ -1,16 +1,16 @@
-execute @s[family=s0] ~ ~ ~ title @p[r=16] actionbar 0
-execute @s[family=s1] ~ ~ ~ title @p[r=16] actionbar 1
-execute @s[family=s2] ~ ~ ~ title @p[r=16] actionbar 2
-execute @s[family=s3] ~ ~ ~ title @p[r=16] actionbar 3
-execute @s[family=s4] ~ ~ ~ title @p[r=16] actionbar 4
-execute @s[family=s5] ~ ~ ~ title @p[r=16] actionbar 5
-execute @s[family=s6] ~ ~ ~ title @p[r=16] actionbar 6
-execute @s[family=s7] ~ ~ ~ title @p[r=16] actionbar 7
-execute @s[family=s8] ~ ~ ~ title @p[r=16] actionbar 8
-execute @s[family=s9] ~ ~ ~ title @p[r=16] actionbar 9
-execute @s[family=s10] ~ ~ ~ title @p[r=16] actionbar 10
-execute @s[family=s11] ~ ~ ~ title @p[r=16] actionbar 11
-execute @s[family=s12] ~ ~ ~ title @p[r=16] actionbar 12
-execute @s[family=s13] ~ ~ ~ title @p[r=16] actionbar 13
-execute @s[family=s14] ~ ~ ~ title @p[r=16] actionbar 14
-execute @s[family=s15] ~ ~ ~ title @p[r=16] actionbar 15
+execute as @s[family=s0] at @s run title @p[r=16] actionbar 0
+execute as @s[family=s1] at @s run title @p[r=16] actionbar 1
+execute as @s[family=s2] at @s run title @p[r=16] actionbar 2
+execute as @s[family=s3] at @s run title @p[r=16] actionbar 3
+execute as @s[family=s4] at @s run title @p[r=16] actionbar 4
+execute as @s[family=s5] at @s run title @p[r=16] actionbar 5
+execute as @s[family=s6] at @s run title @p[r=16] actionbar 6
+execute as @s[family=s7] at @s run title @p[r=16] actionbar 7
+execute as @s[family=s8] at @s run title @p[r=16] actionbar 8
+execute as @s[family=s9] at @s run title @p[r=16] actionbar 9
+execute as @s[family=s10] at @s run title @p[r=16] actionbar 10
+execute as @s[family=s11] at @s run title @p[r=16] actionbar 11
+execute as @s[family=s12] at @s run title @p[r=16] actionbar 12
+execute as @s[family=s13] at @s run title @p[r=16] actionbar 13
+execute as @s[family=s14] at @s run title @p[r=16] actionbar 14
+execute as @s[family=s15] at @s run title @p[r=16] actionbar 15
